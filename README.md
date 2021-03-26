@@ -29,6 +29,7 @@ If photos to be processed were downloaded from Google Photos cloud storage, it m
 
 #### Known Failure Modes
 **Sea Level** Cannot add EXIF altitudes less than 0, so tagger will just leave negative values to be 0.
+
 **\_gps\_IFD\_pointer** Cannot add EXIF GPS data without this in the EXIF tags. It specifies where in the tag to search for GPS data. Please reach out if you know of a way to properly set this parameter.
 
 **Others?** Errors are saved when processing, so please share other error messages you may receive.
@@ -42,9 +43,12 @@ Eventually create wiki
 
 ## Usecases
 You have bunches of photos within your location history timespan that lack location data.
+
 You have a camera that is not capable of adding GPS data to photos (some cameras can talk to your phone to add GPS data), and the timestamps are reasonably accurate.
 
 ## Links
 https://www.google.com/maps/timeline
+
 https://takeout.google.com/settings/takeout
+
 https://chuckleplant.github.io/2018/07/23/google-photos-geotag.html
