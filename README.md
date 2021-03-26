@@ -42,6 +42,8 @@ setup.py and requirements.txt generation in progress.
 Eventually create wiki
 
 ## Usecases
+You want to add location data to your lacking photos!
+
 You have bunches of photos within your location history timespan that lack location data.
 
 You have a camera that is not capable of adding GPS data to photos (some cameras can talk to your phone to add GPS data), and the timestamps are reasonably accurate.
