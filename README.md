@@ -1,6 +1,6 @@
 # PhotosGeoTagger
 
-Python functions to read Google location history and use the data to add GPS coordinates to viable photos. If an image's EXIF tag does not contain GPS data, the photo's date-taken information is used to find a match from one's location history.
+Python functions to read Google location history, and use it to add GPS coordinates to viable photos. If an image's EXIF tag does not contain GPS data, the photo's date-taken information is used to find a match from one's location history.
 
 Inspiration and start to code provided by: https://github.com/chuckleplant/blog/blob/master/scripts/location-geotag.py
 
