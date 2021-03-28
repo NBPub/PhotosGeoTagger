@@ -5,10 +5,14 @@ Python functions to read Google location history, and use it to add GPS coordina
 Inspiration and start to code provided by: https://github.com/chuckleplant/blog/blob/master/scripts/location-geotag.py
 
 ## Usage
-Use Google Takeout to obtain your location history. These functions use "Location History.json" and not the Semantic Location Histories. Note, this may be a big file.
-https://takeout.google.com/settings/takeout
+Current usage is crude, hoping to package code better in the future.
 
-Run **locationtimetable.py** to convert your Google location history (*Location History.json*) takeout into a dataframe of times and GPS data. Then:
+Use Google Takeout to obtain your location history. These functions use "Location History.json" and not the Semantic Location Histories. Note, this may be a big file.
+https://takeout.google.com/settings/takeout.
+
+Download and group the code files in a single directory. With Python and requirements installed, run the following files. Note, file directories will be prompted after starting.
+
+Run **locationtimetable.py** to convert your Google location history (*Location History.json*) takeout into a dataframe of times and GPS data. A CSV file will be saved in the same folder as the scripts. Then:
 
 Run **beta.py** to run through a folder of photos, and add GPS data to viable images. . . OR
 
@@ -36,7 +40,15 @@ If photos to be processed were downloaded from Google Photos cloud storage, it m
 
 
 ## Requirements
-setup.py and requirements.txt generation in progress.
+setup.py and requirements.txt generation in progress. . .
+
+python libraries used: **sys, os, glob, json, bisect**
+
+others:
+ - **[pandas](https://pandas.pydata.org/)**
+ - **[numpy](https://numpy.org/)**
+ - **[exif](https://pypi.org/project/exif/)**
+
 
 ## Detailed Overview
 Eventually create wiki
